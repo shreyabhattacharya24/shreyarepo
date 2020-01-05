@@ -38,7 +38,7 @@ checkAnswer(userClickedPattern.length);
 function nextSequence(){
   userClickedPattern=[];
     level++;
-      $("#level-title").text("Level " + level);
+      $("#level-title").text("Level " + level+" Remember the color Flashed");
   var randomNumber=Math.floor(Math.random()*4);
   var randomChosenColour=buttonColours[randomNumber];
 
